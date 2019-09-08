@@ -1,4 +1,4 @@
 # Travis CI config file
 language: java
 
-script: ./gradlew run
+script: ./gradlew test run
