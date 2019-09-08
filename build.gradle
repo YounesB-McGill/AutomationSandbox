@@ -37,9 +37,14 @@ application {
 }
 
 sourceSets {
-     main{
+     main {
         java {
             srcDir 'src/'
+        }
+    }
+    test {
+        java {
+            srcDir 'test/'
         }
     }
 }
