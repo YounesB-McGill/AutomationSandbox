@@ -3,6 +3,8 @@
  */
 package ca.mcgill.cleancode;
 
+import lejos.hardware.motor.EV3LargeRegulatedMotor;
+
 public class App {
     public String getGreeting() {
         return "Hello world.";
@@ -10,5 +12,7 @@ public class App {
 
     public static void main(String[] args) {
         System.out.println(new App().getGreeting());
+        
+        EV3LargeRegulatedMotor m;
     }
 }
