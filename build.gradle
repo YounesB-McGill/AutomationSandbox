@@ -53,3 +53,8 @@ test {
     // Use junit platform for unit tests
     useJUnitPlatform()
 }
+
+// Check code according to Google style
+task checkstyle(type:Exec) {
+    commandLine './checkstyle.sh'
+}

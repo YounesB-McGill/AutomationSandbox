@@ -1,4 +1,4 @@
 # Travis CI config file
 language: java
 
-script: ./gradlew test run
+script: ./gradlew checkstyle test
